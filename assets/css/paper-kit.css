@@ -4619,6 +4619,7 @@ textarea.form-control {
   .footer .footer-nav,
   .footer .credits {
     margin: 0 auto;
+    width:100%;
   }
 
   .section-buttons .input-group {
