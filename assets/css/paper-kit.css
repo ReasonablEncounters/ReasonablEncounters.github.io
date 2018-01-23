@@ -2631,6 +2631,7 @@ textarea.form-control {
   margin: 15px 3px;
   line-height: 20px;
   text-align: center;
+  width:100%;
 }
 
 .footer .fire {
