@@ -2633,12 +2633,12 @@ textarea.form-control {
   text-align: center;
 }
 
-.footer .heart {
-  color: #EB5E28;
+.footer .fire {
+  height:inherit;
 }
 
 .footer {
-  background-color: #FFFFFF;
+  background-color: #0e1217;
   line-height: 36px;
 }
 .footer.footer-black h4 {
