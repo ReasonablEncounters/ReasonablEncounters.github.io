@@ -20,8 +20,7 @@
     <!-- Animate.css -->
     <link rel="stylesheet" href="../assets/css/animate.css">
 
-    <!-- W3 and My Theme style  -->
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- W3 CSS -->
     <link rel="stylesheet" href="../assets/css/w3.css">
 
     <!-- Fonts and Icons -->
@@ -37,8 +36,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="450" style="">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg fixed-top" color-on-scroll="450" style="color:#05b364">
+        <div class="container w3-mobile">
             <div class="navbar-translate">
                 <a class="navbar-brand" href="https://connlaoi.github.io">Portfolio</a>
                 <button class="navbar-toggler navbar-toggler-right navbar-burger" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -110,43 +109,34 @@
                         <h1 class="presentation-sub-title" style="color:#05b364;">
                             Simple Web App
                         </h1>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="wrapper">
-        <div class="page-header section-dark" style="background-color:#0e1217;">
-            <div class="filter"></div>
-            <div class="content-center">
-                <div class="container w3-center">
-                    <!-- The Modal -->
-                    <button class="w3-button w3-blue w3-center" style="height:50px;width:300px;" onclick="document.getElementById('id01').style.display='block'">Click here to Login</button>
-                    <div id="id01" class="modal">
-                        <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
-                        <!-- Modal Content -->
-                        <form class="modal-content animate" name="login" action="https://connlaoi.github.io/MODE/classwork-3.html">
-                            <div class="w3-container w3-center">
-                                <div style="display:inline-block; width:50%;">
-                                    <img src="../assets/img/source.gif" style="height:200px;width:200px;border-radius:10px;" alt="Avatar" class="avatar">
+                        <!-- The Modal -->
+                        <button class="w3-button w3-blue w3-center" style="height:50px;width:300px;" onclick="document.getElementById('id01').style.display='block'">Click here to Login</button>
+                        <div id="id01" class="modal">
+                            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                        
+                            <!-- Modal Content -->
+                            <form class="modal-content animate" name="login" action="https://connlaoi.github.io/MODE/classwork-3.html">
+                                <div class="w3-container w3-center">
+                                    <div style="display:inline-block; width:50%;">
+                                        <img src="../assets/img/source.gif" style="height:200px;width:200px;border-radius:10px;" alt="Avatar" class="avatar">
+                                    </div>
+                                    <div style="display:inline-block; width:50%;">
+                                        <label for="uname" style="padding-right: 25px;">
+                                            <b>Username</b>
+                                        </label>
+                                        <input type="text" style="background-color:#000;color:#dcdcdc;" placeholder="Enter Username" name="uname" required>
+                                        <br/>
+                                        <label for="psw" style="padding-right: 25px;">
+                                            <b>Password</b>
+                                        </label>
+                                        <input type="password" style="background-color:#000;color:#dcdcdc;" placeholder="Enter Password" name="psw" required>
+                                        <br/>
+                                        <button type="button" onclick="return loginValidation()" class="w3-button w3-green" style="margin:25px;">Login</button>
+                                        <button type="reset" class="w3-button w3-green" style="margin:25px;">Reset</button>
+                                    </div>
                                 </div>
-                                <div style="display:inline-block; width:50%;">
-                                    <label for="uname" style="padding-right: 25px;">
-                                        <b>Username</b>
-                                    </label>
-                                    <input type="text" style="background-color:#000;color:#dcdcdc;" placeholder="Enter Username" name="uname" required>
-                                    <br/>
-                                    <label for="psw" style="padding-right: 25px;">
-                                        <b>Password</b>
-                                    </label>
-                                    <input type="password" style="background-color:#000;color:#dcdcdc;" placeholder="Enter Password" name="psw" required>
-                                    <br/>
-                                    <button type="button" onclick="return loginValidation()" class="w3-button w3-green" style="margin:25px;">Login</button>
-                                    <button type="reset" class="w3-button w3-green" style="margin:25px;">Reset</button>
-                                </div>
-                            </div>
-                        </form>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
