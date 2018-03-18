@@ -2626,7 +2626,7 @@ textarea.form-control {
 
 .footer .copyright {
   color: #777777;
-  padding: 10px 35%;
+  padding: 10px 5px;
   font-size: 14px;
   margin: 15px 3px;
   line-height: 20px;
@@ -4240,7 +4240,7 @@ textarea.form-control {
   }
 
   .navbar .navbar-nav .dropdown-menu {
-    height: 400px;
+    height: auto;
     overflow-y: scroll;
   }
 
@@ -4897,7 +4897,7 @@ textarea.form-control {
   .dropdown.show .dropdown-menu .dropdown-item:focus,
   .dropdown .dropdown-menu .dropdown-item:hover,
   .dropdown .dropdown-menu .dropdown-item:focus {
-    background-color: rgba(11, 252, 83);
+    background-color: forestgreen;
   }
   .dropdown.show .dropdown-menu .dropdown-item a:hover, .dropdown.show .dropdown-menu .dropdown-item a:focus,
   .dropdown .dropdown-menu .dropdown-item a:hover,
@@ -5838,6 +5838,7 @@ textarea.form-control {
 
 .title-brand {
   max-width: 900px;
+  padding: 10px;
   margin: 0 auto;
   position: relative;
   text-align: center;
@@ -5857,15 +5858,15 @@ textarea.form-control {
 }
 
 .presentation-title {
-  font-size: 8em;
   font-weight: 700;
   margin: 0;
+  font-size:6em;
   color: #FFFFFF;
   background: #fbf8ec;
-  background: -moz-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: -webkit-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: -ms-linear-gradient(top, #FFFFFF 35%, #4e6773 100%);
-  background: linear-gradient(to bottom, #FFFFFF 35%, #4e6773 100%);
+  background: -moz-linear-gradient(top, #FFFFFF 35%, #000000 100%);
+  background: -webkit-linear-gradient(top, #FFFFFF 35%, #000000 100%);
+  background: -ms-linear-gradient(top, #FFFFFF 35%, #000000 100%);
+  background: linear-gradient(to bottom, #FFFFFF 35%, #000000 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
