@@ -154,51 +154,7 @@
     
     <!--  Paper Kit Initialization and functons -->
     <script src="../assets/js/paper-kit.js?v=2.1.0"></script>
-    
-    <script>
-        // Get the modal
-        var modal = document.getElementById('id01');
 
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-
-        // When the user clicks the login button
-        // This is solely for educational purposes to demonstrate basic login logic.
-        // It does not represent a secure login/authorization system and is not recommended for use in a professional environment.
-        // This demonstration does not contain php or ajax due to githubs free hosting limitations.
-        function loginValidation() {
-            // Input variables for validating login
-            var username = document.forms["login"]["uname"].value;
-            var password = document.forms["login"]["psw"].value;
-
-            // If the username & password are equal to the test log/pass
-            if (username == "devi" && password == "success") {
-                // Grant access to the classwork 3 data
-                // Redirect to the lab 5 content page
-                window.location.href = "https://connlaoi.github.io/MODE/classwork-3.html";
-            }
-            else if (username == "") {
-                // Display an error message and reset the form
-                window.stop();
-                alert("Oops, you forgot to enter a username!");
-            }
-            else if (password == "") {
-                // Display an error message and reset the form
-                window.stop();
-                alert("Oops, you forgot to enter a password!");
-            }
-            else {
-                // Display an error message and reset the form
-                window.stop();
-                alert("Your login credentials were invalid. Please try again!");
-            }
-        }
-    </script>
-    
     <style>
         /* The Modal (background) */
     
